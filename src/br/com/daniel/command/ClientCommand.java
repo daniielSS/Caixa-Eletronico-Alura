@@ -31,4 +31,35 @@ public class ClientCommand {
 		return cliente;
 	}
 	
+	public static Client openAccount(Client cliente) {
+		
+		System.out.println("*******************************************************************");
+		System.out.println("*                                                                 *");
+		System.out.println("*                       BANCO SILVA'S TERMINAL                    *");
+		System.out.println("*                                                                 *");
+		System.out.println("*******************************************************************");
+		System.out.println("*                                                                 *");
+		System.out.println("* Feliz em saber que deseja fazer parte da nossa comunidade :)    *");
+		System.out.println("*                                                                 *");
+		System.out.println("* Nosso processo de abertura é muito simples, vamos começar?      *");
+		System.out.println("*                                                                 *");
+		System.out.println("* 1- Iniciar                                                      *");
+		System.out.println("*                                                                 *");
+		System.out.println("* 2- Voltar                                                       *");
+		System.out.println("*                                                                 *");
+		System.out.println("*******************************************************************");
+		System.out.print(" Terminal: ");
+		
+		ClientService.openAccount(cliente);
+		
+		return cliente;
+	}
+	
+	public static Client accessAccount(Client cliente) {
+		
+		
+		
+		return cliente;
+	}
+	
 }
